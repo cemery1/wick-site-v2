@@ -1,0 +1,38 @@
+/*
+    Corey Emery (cemery@andrew.cmu.edu)
+    WickEditor Website
+    Supporter.scss
+
+    Stylings for the Supporter Card (name and picture)
+*/
+
+.Supporter {
+    &-container {
+        padding: 0 8px;
+        opacity: .8;
+        -webkit-transition: opacity 0.5s;
+        transition: opacity 0.5s;
+
+        &:hover {
+            opacity: 1;
+
+            & .Supporter-name {
+                visibility: visible;
+            }
+        }
+    }
+
+    &-name {
+        visibility: hidden;
+        display: flex;
+        font-size: 12px;
+        padding: 4px 0 8px;
+        justify-content: center;
+        white-space: nowrap;
+    }
+
+    &-picture {
+        border-radius: 50%;
+        width: 75%;
+    }
+}

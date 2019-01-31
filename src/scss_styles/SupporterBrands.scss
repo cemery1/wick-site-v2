@@ -1,0 +1,18 @@
+/*
+    Corey Emery (cemery@andrew.cmu.edu)
+    WickEditor Website
+    SupporterBrands.scss
+
+    Stylings for the Wick Supporter Brand Logos
+*/
+
+.SupporterBrands {
+    &-row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-spacer {
+        padding-bottom: 28px;
+    }
+}

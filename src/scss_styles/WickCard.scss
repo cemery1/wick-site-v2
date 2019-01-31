@@ -1,0 +1,39 @@
+/*
+    Corey Emery (cemery@andrew.cmu.edu)
+    WickEditor Website
+    PreviewCard.scss
+
+    Stylings for the Wick Homepage Preview Cards
+*/
+
+.WickCard {
+    &-container {
+        border-width: 0;
+        box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+
+        &:hover {
+            cursor: pointer;
+            box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.6);
+        }
+    }
+
+    &-content {
+        top: auto;
+        background-color: white;
+        overflow: hidden;
+        border-bottom-left-radius: 3px; // coded to fill the rounded space in the reactstrap card
+        border-bottom-right-radius: 3px; // coded to fill the rounded space in the reactstrap card
+    }
+
+    &-text {
+        font-size: 12px;
+    }
+
+    &-title {
+        font-size: 16px;
+
+        &--collapsed {
+            margin: 0;
+        }
+    }
+}

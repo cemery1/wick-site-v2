@@ -1,0 +1,57 @@
+/*
+    Corey Emery (cemery@andrew.cmu.edu)
+    WickEditor Website
+    ContentSection.scss
+
+    Stylings page content accompanied by a section title
+*/
+
+.ContentSection {
+    &-body {
+        font-size: 16px;
+
+        &--large {
+            font-size: 20px;
+        }
+
+        &--small {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+
+    &-padding {
+        padding-bottom: 24px;
+    }
+
+    &-title {
+        font-size: 28px;
+
+        &--large {
+            font-size: 40px;
+        }
+
+        &--small {
+            font-size: 24px;
+        }
+    }
+
+    &-underline {
+        margin: 12px auto 16px;
+
+        &--large {
+            margin: 16px auto 20px;
+        }
+
+        &--small {
+            margin: 4px auto 8px;
+        }
+    }
+
+    &-underline--small,
+    &-underline,
+    &-underline--large {
+        width: 48px;
+        border: solid 2px #1EE29A;
+    }
+}

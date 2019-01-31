@@ -1,0 +1,32 @@
+/*
+    Corey Emery (cemery@andrew.cmu.edu)
+    WickEditor Website
+    Header.scss
+
+    Stylings for the Wick Header
+*/
+
+#Header {
+    &-buttonRow {
+        padding: 20px 0 40px;
+    }
+
+    // Button Space Placeholder
+    &-buttonSpacer {
+        height: 48px; // coded to match height of reactstrap button
+    }
+
+    &-titleRow {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    &-subtitleRow {
+        font-size: 20px;
+    }
+
+    &-titleRow,
+    &-subtitleRow {
+        padding-bottom: 40px;
+    }
+}

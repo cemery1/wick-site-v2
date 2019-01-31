@@ -1,0 +1,15 @@
+/*
+    Corey Emery (cemery@andrew.cmu.edu)
+    WickEditor Website
+    SocialMedia.scss
+
+    Stylings for contact links row
+*/
+
+.SocialMedia {
+    &-container {
+        display: flex;
+        justify-content: center;
+        padding: 40px 0;
+    }
+}
